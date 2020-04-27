@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="320.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:textAppearance="@style/TextSmall" android:id="@id/checkbox1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_volume_bind" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextSmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/txt_volume_ringer" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/TextSmall" android:id="@id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1/7" />
+    </LinearLayout>
+    <SeekBar android:id="@id/slider1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="16.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+        <TextView android:textAppearance="@style/TextSmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/txt_volume_notification" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/TextSmall" android:id="@id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1/7" />
+    </LinearLayout>
+    <SeekBar android:id="@id/slider2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="16.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+        <TextView android:textAppearance="@style/TextSmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/txt_volume_media" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/TextSmall" android:id="@id/text3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1/15" />
+    </LinearLayout>
+    <SeekBar android:id="@id/slider3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="16.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+        <TextView android:textAppearance="@style/TextSmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/txt_volume_alarm" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/TextSmall" android:id="@id/text4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1/7" />
+    </LinearLayout>
+    <SeekBar android:id="@id/slider4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="16.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+        <TextView android:textAppearance="@style/TextSmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/txt_volume_voice_call" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/TextSmall" android:id="@id/text5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1/5" />
+    </LinearLayout>
+    <SeekBar android:id="@id/slider5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="16.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+        <TextView android:textAppearance="@style/TextSmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/txt_volume_system" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/TextSmall" android:id="@id/text6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1/7" />
+    </LinearLayout>
+    <SeekBar android:id="@id/slider6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="16.0dip" />
+</LinearLayout>

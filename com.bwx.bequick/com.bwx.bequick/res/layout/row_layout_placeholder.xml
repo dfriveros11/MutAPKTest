@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/placeholder" android:focusable="false" android:clickable="false" android:layout_width="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,23 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.bwx.bequick.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '4'
+  targetSdkVersion: '4'
+sharedLibrary: false
+sparseResources: true
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.2
+versionInfo:
+  versionCode: '201107260'
+  versionName: 1.9.9.3

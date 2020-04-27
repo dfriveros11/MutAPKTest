@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/clickable_left" android:background="@android:drawable/list_selector_background" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:minHeight="58.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/icon_view" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="21.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="marquee" android:id="@id/title_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        <TextView android:textSize="14.0sp" android:ellipsize="marquee" android:id="@id/descr_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+    </LinearLayout>
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/popup_button" android:visibility="gone" android:layout_width="58.0dip" android:layout_height="46.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/ic_popup" />
+</LinearLayout>

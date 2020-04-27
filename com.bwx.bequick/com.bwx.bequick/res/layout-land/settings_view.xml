@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bitmap_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="480.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/main_toolbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/settings_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:layout_weight="1.0" />
+            <LinearLayout android:background="@drawable/bitmap_scroll" android:layout_width="56.0dip" android:layout_height="fill_parent" android:layout_marginRight="8.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

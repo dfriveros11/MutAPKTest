@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_common">
+        <ListPreference android:entries="@array/appearance_variant_names" android:title="@string/pref_view_mode" android:key="viewMode" android:summary="@string/pref_view_mode_descr" android:defaultValue="0" android:entryValues="@array/appearance_variant_values" />
+        <CheckBoxPreference android:title="@string/txt_haptic_feedback" android:key="hapticFeedback" android:defaultValue="false" android:summaryOn="@string/txt_haptic_feedback_on" android:summaryOff="@string/txt_haptic_feedback_off" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_statusbar_integration">
+        <ListPreference android:entries="@array/status_bar_variant_names" android:title="@string/pref_status_bar" android:key="statusBarIntegration" android:summary="@string/pref_status_bar_descr" android:defaultValue="0" android:entryValues="@array/status_bar_variant_values" />
+        <CheckBoxPreference android:title="@string/pref_inverse_notif_color" android:key="inverseSatusbarColor" android:defaultValue="false" android:summaryOn="@string/pref_inverse_notif_color_on" android:summaryOff="@string/pref_inverse_notif_color_off" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/txt_flashlight">
+        <ListPreference android:entries="@array/flashlight_names" android:title="@string/txt_flashlight" android:key="flashlight" android:summary="@string/pref_flashlight_descr" android:defaultValue="0" android:entryValues="@array/flashlight_values" />
+        <ListPreference android:entries="@array/flashlight_switch_names" android:title="@string/txt_full_brightness" android:key="flightSwitch" android:summary="@string/txt_full_brightness_descr" android:defaultValue="0" android:entryValues="@array/flashlight_switch_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_doc">
+        <Preference android:enabled="true" android:title="@string/pref_online_doc" android:selectable="true" android:key="doc" android:summary="@string/pref_doc_descr" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_about">
+        <Preference android:enabled="true" android:title="@string/pref_about" android:selectable="true" android:key="about" android:summary="@string/pref_about_descr" />
+        <Preference android:enabled="true" android:title="@string/quicker_about" android:selectable="true" android:key="about_quicker" android:summary="@string/quicker_about_descr" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="5.0dip" android:paddingTop="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/image1" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/ic_logo_black" android:scaleType="fitCenter" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:ellipsize="marquee" android:id="@id/text1" android:paddingLeft="4.0dip" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/txt_quick_settings" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:ellipsize="marquee" android:id="@id/text2" android:paddingLeft="4.0dip" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msg_tap_to_change_settings" android:singleLine="true" android:layout_weight="1.0" />
+</LinearLayout>

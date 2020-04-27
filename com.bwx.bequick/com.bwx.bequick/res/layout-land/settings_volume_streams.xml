@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="480.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/volume_control" />
+            <LinearLayout android:background="@drawable/bitmap_scroll" android:layout_width="56.0dip" android:layout_height="fill_parent" android:layout_marginRight="8.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <ImageView android:paddingRight="60.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@android:drawable/divider_horizontal_dim_dark" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:paddingRight="60.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="4.0dip">
+        <Button android:id="@id/button1" android:layout_width="156.0dip" android:layout_height="wrap_content" android:text="@string/btn_set" />
+        <Button android:id="@id/button2" android:layout_width="156.0dip" android:layout_height="wrap_content" android:text="@string/btn_calcel" />
+    </LinearLayout>
+</LinearLayout>
