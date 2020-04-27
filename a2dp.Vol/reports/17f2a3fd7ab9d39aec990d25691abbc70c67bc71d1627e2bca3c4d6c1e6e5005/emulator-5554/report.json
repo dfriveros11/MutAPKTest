@@ -1,0 +1,107 @@
+[
+  {
+    "uri": "/home/arcadia/Documents/MutAPK/TestMutAPK/APKSTEST/a2dp.Vol/./features/my_first.feature",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "name": "Login feature",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "login-feature;start-a-service",
+        "keyword": "Scenario",
+        "name": "Start a Service",
+        "description": "",
+        "line": 4,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@user1",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/app_installation_hooks.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8727351383
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/app_life_cycle_hooks.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 912111093
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "I press \"Stop Service\"",
+            "line": 5,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 399249325
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Start Service\"",
+            "line": 6,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/assert_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 145325779
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I press \"Start Service\"",
+            "line": 7,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 360214467
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I press \"Find Devices\"",
+            "line": 8,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 520145392
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/app_life_cycle_hooks.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13477884
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

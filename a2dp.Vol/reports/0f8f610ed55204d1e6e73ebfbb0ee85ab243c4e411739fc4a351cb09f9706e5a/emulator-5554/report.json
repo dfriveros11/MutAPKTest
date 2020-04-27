@@ -1,0 +1,95 @@
+[
+  {
+    "uri": "/home/arcadia/Documents/MutAPK/TestMutAPK/APKSTEST/a2dp.Vol/./features/my_first.feature",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "name": "Login feature",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "login-feature;start-a-service",
+        "keyword": "Scenario",
+        "name": "Start a Service",
+        "description": "",
+        "line": 4,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@user1",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/app_installation_hooks.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8774573659
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/app_life_cycle_hooks.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 992206551
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "I press \"Start Service\"",
+            "line": 5,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7415290447
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Stop Service\"",
+            "line": 6,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/assert_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132371820
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I press \"Stop Service\"",
+            "line": 7,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 304697802
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/app_life_cycle_hooks.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11617585
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

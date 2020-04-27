@@ -1,0 +1,98 @@
+[
+  {
+    "uri": "/home/arcadia/Documents/MutAPK/TestMutAPK/APKSTEST/com.android.spritemethodtest/./features/my_first.feature",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "name": "Login feature",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "login-feature;as-a-valid-user-i-can-log-into-my-app",
+        "keyword": "Scenario",
+        "name": "As a valid user I can log into my app",
+        "description": "    I press \"Animate\"",
+        "line": 4,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@user1",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/app_installation_hooks.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8502744225
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/app_life_cycle_hooks.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 777046698
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "And ",
+            "name": "Then I press \"OpenGL ES\"",
+            "line": 6,
+            "match": {
+              "location": "/home/arcadia/Documents/MutAPK/TestMutAPK/APKSTEST/com.android.spritemethodtest/./features/my_first.feature:6"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I press \"Run Test\"",
+            "line": 8,
+            "comments": [
+              {
+                "value": "#Given words",
+                "line": 7
+              }
+            ],
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:17"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "/^I go back$/",
+            "line": 9,
+            "match": {
+              "location": "/home/arcadia/Documents/MutAPK/TestMutAPK/APKSTEST/com.android.spritemethodtest/./features/my_first.feature:9"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/app_life_cycle_hooks.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7302868
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
