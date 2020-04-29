@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="rewindbutton">false</item>
+    <item type="id" name="playbutton">false</item>
+    <item type="id" name="pausebutton">false</item>
+    <item type="id" name="skipbutton">false</item>
+    <item type="id" name="stopbutton">false</item>
+    <item type="id" name="ejectbutton">false</item>
+</resources>

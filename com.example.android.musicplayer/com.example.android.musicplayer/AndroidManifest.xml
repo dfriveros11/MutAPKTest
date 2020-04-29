@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.android.musicplayer" platformBuildVersionCode="19" platformBuildVersionName="4.4.2-1456859">
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application android:debuggable="true" android:icon="@drawable/ic_launcher" android:label="Random Music Player">
+        <activity android:label="Random Music Player" android:name=".MainActivity" android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name=".MusicService">
+            <intent-filter>
+                <action android:name="com.example.android.musicplayer.action.PLAY"/>
+                <action android:name="com.example.android.musicplayer.action.PAUSE"/>
+                <action android:name="com.example.android.musicplayer.action.SKIP"/>
+                <action android:name="com.example.android.musicplayer.action.REWIND"/>
+                <action android:name="com.example.android.musicplayer.action.STOP"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.example.android.musicplayer.action.URL"/>
+                <data android:scheme="http"/>
+            </intent-filter>
+        </service>
+        <receiver android:name=".MusicIntentReceiver">
+            <intent-filter>
+                <action android:name="android.media.AUDIO_BECOMING_NOISY"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.example.android.musicplayer.EmmaInstrument.SMSInstrumentedReceiver">
+            <intent-filter>
+                <action android:name="edu.gatech.m3.emma.COLLECT_COVERAGE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:label="EmmaInstrumentationActivity" android:name="com.example.android.musicplayer.EmmaInstrument.InstrumentedActivity"/>
+    </application>
+    <instrumentation android:handleProfiling="true" android:label="EmmaInstrumentation" android:name="com.example.android.musicplayer.EmmaInstrument.EmmaInstrumentation" android:targetPackage="com.example.android.musicplayer"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+</manifest>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="ic_launcher" id="0x7f020004" />
+    <public type="drawable" name="ic_stat_playing" id="0x7f020005" />
+    <public type="drawable" name="eject" id="0x7f020000" />
+    <public type="drawable" name="eject_pressed" id="0x7f020001" />
+    <public type="drawable" name="ff" id="0x7f020002" />
+    <public type="drawable" name="ff_pressed" id="0x7f020003" />
+    <public type="drawable" name="pause" id="0x7f020006" />
+    <public type="drawable" name="pause_pressed" id="0x7f020007" />
+    <public type="drawable" name="play" id="0x7f020008" />
+    <public type="drawable" name="play_pressed" id="0x7f020009" />
+    <public type="drawable" name="rew" id="0x7f02000a" />
+    <public type="drawable" name="rew_pressed" id="0x7f02000b" />
+    <public type="drawable" name="selector_eject" id="0x7f02000c" />
+    <public type="drawable" name="selector_ff" id="0x7f02000d" />
+    <public type="drawable" name="selector_pause" id="0x7f02000e" />
+    <public type="drawable" name="selector_play" id="0x7f02000f" />
+    <public type="drawable" name="selector_rew" id="0x7f020010" />
+    <public type="drawable" name="selector_stop" id="0x7f020011" />
+    <public type="drawable" name="stop" id="0x7f020012" />
+    <public type="drawable" name="stop_pressed" id="0x7f020013" />
+    <public type="layout" name="main" id="0x7f030000" />
+    <public type="id" name="rewindbutton" id="0x7f040000" />
+    <public type="id" name="playbutton" id="0x7f040001" />
+    <public type="id" name="pausebutton" id="0x7f040002" />
+    <public type="id" name="skipbutton" id="0x7f040003" />
+    <public type="id" name="stopbutton" id="0x7f040004" />
+    <public type="id" name="ejectbutton" id="0x7f040005" />
+</resources>

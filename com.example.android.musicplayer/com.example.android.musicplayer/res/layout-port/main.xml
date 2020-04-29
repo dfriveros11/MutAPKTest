@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="#ff000040" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Random Music Player" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <Button android:id="@id/rewindbutton" android:background="@drawable/selector_rew" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_margin="5.0dip" />
+        <Button android:id="@id/playbutton" android:background="@drawable/selector_play" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_margin="5.0dip" />
+        <Button android:id="@id/pausebutton" android:background="@drawable/selector_pause" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_margin="5.0dip" />
+        <Button android:id="@id/skipbutton" android:background="@drawable/selector_ff" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_margin="5.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <Button android:id="@id/stopbutton" android:background="@drawable/selector_stop" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_margin="5.0dip" />
+        <Button android:id="@id/ejectbutton" android:background="@drawable/selector_eject" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_margin="5.0dip" />
+    </LinearLayout>
+</LinearLayout>

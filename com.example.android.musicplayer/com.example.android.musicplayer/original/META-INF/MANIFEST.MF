@@ -1,0 +1,153 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_252 (Private Build)
+
+Name: res/drawable-mdpi-v4/pause.png
+SHA1-Digest: 552dwkF5+5vGNlLQroiYJ9I7yiQ=
+
+Name: res/drawable-mdpi-v4/ic_stat_playing.png
+SHA1-Digest: 15DD4D42mW7izvdd3GbsMDH2W1s=
+
+Name: res/drawable-mdpi-v4/pause_pressed.png
+SHA1-Digest: WIiH1NiZX/z2nO8zSMYQRjkRs2o=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA1-Digest: 0bIMIu213qH4JWa/7iORXZQnMiY=
+
+Name: res/drawable-hdpi-v4/rew.png
+SHA1-Digest: 79PPr0e3bt1XIZNvJRdVcke2zUM=
+
+Name: res/drawable-hdpi-v4/eject.png
+SHA1-Digest: tQfr71q/lkVwt0LmCfHZPbHVeHU=
+
+Name: res/drawable-mdpi-v9/ic_stat_playing.png
+SHA1-Digest: 4p72o+9NTrowLg5ye5XUMGOpFm0=
+
+Name: res/drawable-mdpi-v4/play_pressed.png
+SHA1-Digest: BX/twvyDeraQmbss/3wXEKexXo0=
+
+Name: res/drawable-mdpi-v4/selector_eject.xml
+SHA1-Digest: 9Qvc7/8fN6lNylp8CZXRXNNX+po=
+
+Name: res/drawable-ldpi-v4/ic_launcher.png
+SHA1-Digest: WG5IVCHf6QRoIz305ghrOJOuujU=
+
+Name: res/drawable-mdpi-v4/rew.png
+SHA1-Digest: 79PPr0e3bt1XIZNvJRdVcke2zUM=
+
+Name: res/drawable-ldpi-v9/ic_stat_playing.png
+SHA1-Digest: C28Z5r9QzgBK6SGPS0D7GczYTZg=
+
+Name: res/drawable-mdpi-v4/stop.png
+SHA1-Digest: eRJ962ZI0cp7xebqSZmc7iz+WXM=
+
+Name: res/drawable-hdpi-v4/selector_ff.xml
+SHA1-Digest: dthAA6WPOods3REaJANt6cjLzRA=
+
+Name: res/drawable-mdpi-v4/eject_pressed.png
+SHA1-Digest: 3X5wxueKd1NXrY+DxKu3CdInFG0=
+
+Name: res/drawable-hdpi-v4/rew_pressed.png
+SHA1-Digest: o8YvbhSmmrIlxs88ti+DCjhmZAo=
+
+Name: res/drawable-mdpi-v4/play.png
+SHA1-Digest: cL/QiqPNQXnLqQS++RCuLVXy5sk=
+
+Name: res/drawable-ldpi-v4/ic_stat_playing.png
+SHA1-Digest: EbAEQ3ZIPUUr9+rEqoDsGDyi3Nc=
+
+Name: res/drawable-mdpi-v4/stop_pressed.png
+SHA1-Digest: lXC/dQkzPQdZ8f0Cytd+F2IQMrg=
+
+Name: res/layout-port/main.xml
+SHA1-Digest: anglSp9np/Ks2Vv1i/nt9utI06c=
+
+Name: resources.arsc
+SHA1-Digest: pwNZnttVDT9EncMh39sSpJIglpE=
+
+Name: res/drawable-mdpi-v4/selector_play.xml
+SHA1-Digest: GAiI6KU96vj0jQjmmwo3CT6qee0=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 7RZNDcIULn6xa/mpM/3LiJRPB3k=
+
+Name: res/drawable-hdpi-v4/selector_stop.xml
+SHA1-Digest: 1mjns51BwcqCVUP8ffRiNKMLSxg=
+
+Name: res/drawable-mdpi-v4/ff_pressed.png
+SHA1-Digest: MJToA6BSs4KnXky6x6aGXXBdiUY=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: 0bIMIu213qH4JWa/7iORXZQnMiY=
+
+Name: res/layout-land/main.xml
+SHA1-Digest: qEyQoRJkNYYjogZI3tIhA7BXT+8=
+
+Name: res/drawable-mdpi-v4/eject.png
+SHA1-Digest: tQfr71q/lkVwt0LmCfHZPbHVeHU=
+
+Name: res/drawable-hdpi-v4/ff_pressed.png
+SHA1-Digest: MJToA6BSs4KnXky6x6aGXXBdiUY=
+
+Name: res/drawable-mdpi-v4/selector_pause.xml
+SHA1-Digest: spsKojMStRn/h32uyQEjemOBXeg=
+
+Name: res/drawable-hdpi-v4/ff.png
+SHA1-Digest: yqWhmuzrUhdQXi9HcB2+lYj2mgM=
+
+Name: res/drawable-hdpi-v4/selector_play.xml
+SHA1-Digest: GAiI6KU96vj0jQjmmwo3CT6qee0=
+
+Name: res/drawable-hdpi-v4/eject_pressed.png
+SHA1-Digest: 3X5wxueKd1NXrY+DxKu3CdInFG0=
+
+Name: res/drawable-hdpi-v4/selector_rew.xml
+SHA1-Digest: ZaUh24v0jpfTLOlEKNxpYEV6Cv0=
+
+Name: res/drawable-mdpi-v4/selector_stop.xml
+SHA1-Digest: 1mjns51BwcqCVUP8ffRiNKMLSxg=
+
+Name: res/drawable-hdpi-v4/stop_pressed.png
+SHA1-Digest: lXC/dQkzPQdZ8f0Cytd+F2IQMrg=
+
+Name: res/drawable-hdpi-v4/pause.png
+SHA1-Digest: 552dwkF5+5vGNlLQroiYJ9I7yiQ=
+
+Name: res/drawable-hdpi-v9/ic_stat_playing.png
+SHA1-Digest: HfoFrwIzPtNSndZaPygQto8A1X4=
+
+Name: res/drawable-hdpi-v4/stop.png
+SHA1-Digest: eRJ962ZI0cp7xebqSZmc7iz+WXM=
+
+Name: res/drawable-hdpi-v4/selector_pause.xml
+SHA1-Digest: spsKojMStRn/h32uyQEjemOBXeg=
+
+Name: res/drawable-hdpi-v4/play_pressed.png
+SHA1-Digest: BX/twvyDeraQmbss/3wXEKexXo0=
+
+Name: res/drawable-hdpi-v4/selector_eject.xml
+SHA1-Digest: 9Qvc7/8fN6lNylp8CZXRXNNX+po=
+
+Name: res/drawable-hdpi-v4/pause_pressed.png
+SHA1-Digest: WIiH1NiZX/z2nO8zSMYQRjkRs2o=
+
+Name: res/drawable-hdpi-v4/play.png
+SHA1-Digest: cL/QiqPNQXnLqQS++RCuLVXy5sk=
+
+Name: res/drawable-mdpi-v4/ff.png
+SHA1-Digest: yqWhmuzrUhdQXi9HcB2+lYj2mgM=
+
+Name: res/drawable-hdpi-v4/ic_stat_playing.png
+SHA1-Digest: 15DD4D42mW7izvdd3GbsMDH2W1s=
+
+Name: res/drawable-mdpi-v4/selector_rew.xml
+SHA1-Digest: ZaUh24v0jpfTLOlEKNxpYEV6Cv0=
+
+Name: classes.dex
+SHA1-Digest: PubWONfrhxRoZt0H/79yM9Rnj7g=
+
+Name: res/drawable-mdpi-v4/rew_pressed.png
+SHA1-Digest: o8YvbhSmmrIlxs88ti+DCjhmZAo=
+
+Name: res/drawable-mdpi-v4/selector_ff.xml
+SHA1-Digest: dthAA6WPOods3REaJANt6cjLzRA=
+
