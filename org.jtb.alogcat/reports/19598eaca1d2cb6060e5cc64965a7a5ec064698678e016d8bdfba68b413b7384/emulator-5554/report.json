@@ -1,0 +1,212 @@
+[
+  {
+    "uri": "/home/arcadia/Documents/MutAPK/TestMutAPK/APKSTEST/org.jtb.alogcat/./features/my_first.feature",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "name": "Login feature",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "login-feature;as-a-valid-user-i-can-log-into-my-app",
+        "keyword": "Scenario",
+        "name": "As a valid user I can log into my app",
+        "description": "",
+        "line": 4,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@user1",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/app_installation_hooks.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8622201151
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/app_life_cycle_hooks.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 729440512
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "I wait",
+            "line": 5,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/progress_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000140417
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on screen 90% from the left and 5% from the top",
+            "line": 6,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 647565232
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I press \"Save\"",
+            "line": 7,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 586506479
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on screen 90% from the left and 5% from the top",
+            "line": 8,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 624217344
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I press \"Clear\"",
+            "line": 9,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 458873266
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on screen 90% from the left and 5% from the top",
+            "line": 10,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 622251536
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I press \"Preferences\"",
+            "line": 11,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 416841352
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I press \"Keep Screen On?\"",
+            "line": 12,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 742610800
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I go back",
+            "line": 13,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/navigation_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159669710
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on screen 80% from the left and 5% from the top",
+            "line": 14,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 620543549
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I press the view with id \"filter_edit\"",
+            "line": 15,
+            "match": {
+              "location": "/home/arcadia/Documents/MutAPK/TestMutAPK/APKSTEST/org.jtb.alogcat/./features/my_first.feature:15"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I see \"Welcome to coolest app ever\"",
+            "line": 16,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/assert_steps.rb:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I wait for 5 seconds",
+            "line": 17,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/progress_steps.rb:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/app_life_cycle_hooks.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8732671
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
