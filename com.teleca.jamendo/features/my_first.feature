@@ -8,11 +8,13 @@ Feature: Login feature
     And I wait for 2 seconds
     Then I press "Playlists"
     And I press view with id "BrowseEditText"
+    Then I enter text "Prueba" into field with id "BrowseEditText"
+    Then I wait for 2 seconds
     Then I go back
     Then I go back
     And I press "Radio"
     Then I press "Jazz"
-    And I wait for 4 seconds
+    And I wait for 2 seconds
     Then I wait for 2 seconds
     Then I go back
     Then I go back
