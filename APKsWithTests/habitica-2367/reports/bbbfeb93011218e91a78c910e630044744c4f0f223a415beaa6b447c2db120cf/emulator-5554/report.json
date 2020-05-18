@@ -1,0 +1,119 @@
+[
+  {
+    "uri": "/home/arcadia/Documents/MutAPK/TestMutAPK/APKSTEST/APKsToMakeTests/habitica-2367/./features/my_first.feature",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "name": "Login feature",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "login-feature;as-a-valid-user-i-can-log-into-my-app",
+        "keyword": "Scenario",
+        "name": "As a valid user I can log into my app",
+        "description": "",
+        "line": 4,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@user1",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/app_installation_hooks.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10177229739
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/app_life_cycle_hooks.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1050001156
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "I wait",
+            "line": 5,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/progress_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000176671
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I swipe right",
+            "line": 6,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/navigation_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1211689460
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I wait for 2 seconds",
+            "line": 7,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/progress_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000150689
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I drag from 20:20 to 20:80 moving with 8 steps",
+            "line": 8,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/navigation_steps.rb:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 663770425
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I wait for 4 seconds",
+            "line": 9,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/progress_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000171473
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/app_life_cycle_hooks.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10255519
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,425 @@
+[
+  {
+    "uri": "/home/arcadia/Documents/MutAPK/TestMutAPK/APKSTEST/APKsToMakeTests/habitica-2367/./features/my_first.feature",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "name": "Login feature",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "login-feature;as-a-valid-user-i-can-log-into-my-app",
+        "keyword": "Scenario",
+        "name": "As a valid user I can log into my app",
+        "description": "",
+        "line": 4,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@user1",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/app_installation_hooks.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10184970255
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/app_life_cycle_hooks.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1147413381
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "I wait",
+            "line": 5,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/progress_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000206493
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I touch the \"SKIP\" text",
+            "line": 6,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 342653900
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I touch the \"REGISTER\" text",
+            "line": 8,
+            "comments": [
+              {
+                "value": "#First Time Create a account",
+                "line": 7
+              }
+            ],
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 809609383
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I wait for 2 seconds",
+            "line": 9,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/progress_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000126766
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I press view with id \"username\"",
+            "line": 10,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 313093848
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I enter text \"prue12345678912345\" into field with id \"username\"",
+            "line": 11,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/enter_text_steps.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 833648133
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I go back",
+            "line": 12,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/navigation_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12329330
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I press view with id \"email\"",
+            "line": 13,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 288534657
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I enter text \"prue12345678912345@holi.com\" into field with id \"email\"",
+            "line": 14,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/enter_text_steps.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 842855937
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I go back",
+            "line": 15,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/navigation_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12673717
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I press view with id \"password\"",
+            "line": 16,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 288414036
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I enter text \"prueb123456789\" into field with id \"password\"",
+            "line": 17,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/enter_text_steps.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 842144298
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I go back",
+            "line": 18,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/navigation_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11594395
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I press view with id \"confirm_password\"",
+            "line": 19,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 287564556
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I enter text \"prueb123456789\" into field with id \"confirm_password\"",
+            "line": 20,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/enter_text_steps.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 865906273
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I go back",
+            "line": 21,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/navigation_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20332413
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I touch the \"Register\" text",
+            "line": 22,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 341509099
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I wait for 2 seconds",
+            "line": 23,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/progress_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000136281
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I touch the \"NEXT\" text",
+            "line": 24,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 305094583
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I touch the \"NEXT\" text",
+            "line": 25,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 317371989
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on screen 87% from the left and 96% from the top",
+            "line": 26,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 617166937
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I wait for 4 seconds",
+            "line": 27,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/progress_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000116123
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on screen 50% from the left and 50% from the top",
+            "line": 28,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 619955603
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I wait for 4 seconds",
+            "line": 29,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/progress_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000289975
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on screen 50% from the left and 50% from the top",
+            "line": 30,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 621164388
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I wait for 4 seconds",
+            "line": 31,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/progress_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000138609
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on screen 50% from the left and 50% from the top",
+            "line": 32,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 622823761
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I wait for 4 seconds",
+            "line": 33,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/progress_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000184574
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on screen 50% from the left and 50% from the top",
+            "line": 34,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/press_button_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 626439454
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I wait for 10 seconds",
+            "line": 35,
+            "match": {
+              "location": "calabash-android-0.9.8/lib/calabash-android/steps/progress_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000247989
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/app_life_cycle_hooks.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10897120
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

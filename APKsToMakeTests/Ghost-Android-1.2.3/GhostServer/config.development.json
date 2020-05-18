@@ -1,0 +1,26 @@
+{
+  "url": "http://localhost:2368/",
+  "server": {
+    "port": 2368,
+    "host": "127.0.0.1"
+  },
+  "database": {
+    "client": "sqlite3",
+    "connection": {
+      "filename": "/home/arcadia/Documents/MutAPK/TestMutAPK/APKSTEST/APKsToMakeTests/Ghost-Android-1.2.3/GhostServer/content/data/ghost-local.db"
+    }
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "local",
+  "paths": {
+    "contentPath": "/home/arcadia/Documents/MutAPK/TestMutAPK/APKSTEST/APKsToMakeTests/Ghost-Android-1.2.3/GhostServer/content"
+  }
+}
